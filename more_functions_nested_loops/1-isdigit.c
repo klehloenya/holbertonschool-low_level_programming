@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /** _isdigit - check if the parameter isdigit or characteer
 *
