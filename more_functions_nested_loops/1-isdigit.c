@@ -5,7 +5,7 @@
 * _isdigit - check if the parameter is digit or characteer
 *@c: the character to check
 *
-* Return : 1 if is digit or 0 otherwise
+* Return: 1 if is digit or 0 otherwise
 */
 
 int _isdigit(int c)
