@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 
-/** _isdigit - check if the parameter isdigit or characteer
+/** _isdigit - check if the parameter is digit or characteer
+*@c: the character to check
 *
-* c = parameter
-* return : 1 if is digit or 0 otherwise
+* Return : 1 if is digit or 0 otherwise
 */
 
 int _isdigit(int c)
