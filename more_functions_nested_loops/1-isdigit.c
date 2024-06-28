@@ -1,10 +1,19 @@
 #include "main.h"
 
-int _isdigit(int c);
+/** _isdigit - check if the parameter isdigit or characteer
+ *
+ * c = parameter
+ * return : 1 if is digit or 0 otherwise
+ */
+int _isdigit(int c)
 {
-	if (c >= 0 , && <= 9)
+	if (c >= 0 && c <=9)
 	{
-		return (1);
+		return (0);
 	}
-	return (0);
+	else
+	{
+		return (1)
+	}
 }
+
