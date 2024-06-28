@@ -1,7 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 
-/** _isdigit - check if the parameter is digit or characteer
+/**
+* _isdigit - check if the parameter is digit or characteer
 *@c: the character to check
 *
 * Return : 1 if is digit or 0 otherwise
