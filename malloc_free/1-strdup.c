@@ -10,21 +10,36 @@
  */
 char *_strdup(char *str)
 {
-	char *aaa;
-	int i, r = 0;
+	size_t i, j;
+	char *strdout;
 
 	if (str == NULL)
+	{
 		return (NULL);
+	
+	}
 
 	i = 0;
-	while (str[1] i = '\n')
+	while (str[i] != '\0')
+	{
 		i++;
-	aaa = malloc(sizeof(char) *(i + 1));
+	
+	}
 
-	if (aaa == NULL)
+	strdout = malloc(sizeof(char) * (i + 1));
+
+	if (strdout == NUL)
+	{
 		return (NULL);
+	
+	}
 
-	for (r = 0; str[r]; r++)
-		aaa[r] = str[r];
-	return (aaa);
+	for (j = 0; j <= i; j++)
+	{
+		strdout[j] = str[j];
+	 
+	}
+	
+		return (strdout)
+
 }
