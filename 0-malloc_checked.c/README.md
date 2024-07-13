@@ -1,2 +1,2 @@
-more functions to allocate memory
+more_malloc_free
 memory allocation using malloc
